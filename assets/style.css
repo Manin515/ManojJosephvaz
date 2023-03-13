@@ -64,7 +64,7 @@ body
   text-overflow:10px;
   }
   .Navbar:hover .menu li:nth-child(1) {
-  transition-delay: 0.02s;
+  transition-delay: 0.00s;
   transform:rotate(85deg);
 }
 .Navbar:hover .menu li:nth-child(1) a {
