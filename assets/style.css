@@ -35,7 +35,7 @@ body
   transition:transform 1.4s 0.07s;
   z-index: -1;
 }
-.Navbar:hover .menu {
+.Navbar:not(.nohover):hover .menu {
   transition: transform 0.4s 0.08s,z-index 0s 0.5s;
   transform: scale(1);
   z-index: 1;
@@ -47,7 +47,7 @@ body
   transform-origin: 100px 100px;
   transition: all 0.5s 0.1s;
 }
-.Navbar :not(.nohover):hover .menu li {
+.Navbar :hover.menu li {
   transition: all 0.7s;
 }
 .Navbar:hover .menu li a {
