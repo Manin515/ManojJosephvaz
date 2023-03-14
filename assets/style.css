@@ -35,7 +35,7 @@ body
   transition:transform 1.4s 0.07s;
   z-index: -1;
 }
-.Navbar:not(.nohover):hover .menu {
+.Navbar :hover .menu {
   transition: transform 0.4s 0.08s,z-index 0s 0.5s;
   transform: scale(1);
   z-index: 1;
@@ -47,10 +47,10 @@ body
   transform-origin: 100px 100px;
   transition: all 0.5s 0.1s;
 }
-.Navbar :hover.menu li {
+.Navbar  .menu li {
   transition: all 0.7s;
 }
-.Navbar:hover .menu li a {
+.Navbar .menu li a {
   width: 45px;
   height: 45px;
   line-height: 45px;
@@ -63,75 +63,75 @@ body
   transition: 0.7s;
   text-overflow:10px;
   }
-  .Navbar:hover .menu li:nth-child(1) {
+  .Navbar .menu li:nth-child(1) {
   transition-delay: 0.02s;
   transform:rotate(85deg);
 }
-.Navbar:hover .menu li:nth-child(1) a {
+.Navbar .menu li:nth-child(1) a {
   transition-delay: 0.04s;
   transform:rotate(635deg);
 }
-.Navbar:hover .menu li:nth-child(2) {
+.Navbar .menu li:nth-child(2) {
   transition-delay: 0.04s;
   transform:rotate(125deg);
 }
-.Navbar:hover .menu li:nth-child(2) a {
+.Navbar .menu li:nth-child(2) a {
   transition-delay: 0.08s;
   transform:rotate(595deg);
 }
-.Navbar:hover .menu li:nth-child(3) {
+.Navbar .menu li:nth-child(3) {
   transition-delay: 0.06s;
   transform:rotate(165deg);
 }
-.Navbar:hover .menu li:nth-child(3) a {
+.Navbar .menu li:nth-child(3) a {
   transition-delay: 0.12s;
   transform:rotate(555deg);
 }
-.Navbar:hover .menu li:nth-child(4) {
+.Navbar .menu li:nth-child(4) {
   transition-delay: 0.08s;
   transform:rotate(205deg);
 }
-.Navbar:hover .menu li:nth-child(4) a {
+.Navbar .menu li:nth-child(4) a {
   transition-delay: 0.16s;
   transform:rotate(515deg);
 }
-.Navbar:hover .menu li:nth-child(5) {
+.Navbar .menu li:nth-child(5) {
   transition-delay: 0.1s;
   transform:rotate(245deg);
 }
-.Navbar:hover .menu li:nth-child(5) a {
+.Navbar .menu li:nth-child(5) a {
   transition-delay: 0.2s;
   transform:rotate(475deg);
 }
-.Navbar:hover .menu li:nth-child(6) {
+.Navbar .menu li:nth-child(6) {
   transition-delay: 0.12s;
   transform:rotate(285deg);
 }
-.Navbar:hover .menu li:nth-child(6) a {
+.Navbar .menu li:nth-child(6) a {
   transition-delay: 0.24s;
   transform:rotate(435deg);
 }
-.Navbar:hover .menu li:nth-child(7) {
+.Navbar .menu li:nth-child(7) {
   transition-delay: 0.14s;
   transform:rotate(325deg);
 }
-.Navbar:hover .menu li:nth-child(7) a {
+.Navbar .menu li:nth-child(7) a {
   transition-delay: 0.28s;
   transform:rotate(395deg);
 }
-.Navbar:hover .menu li:nth-child(8) {
+.Navbar .menu li:nth-child(8) {
   transition-delay: 0.16s;
   transform:rotate(365deg);
 }
-.Navbar:hover .menu li:nth-child(8) a {
+.Navbar .menu li:nth-child(8) a {
   transition-delay: 0.32s;
   transform:rotate(355deg);
 }
-.Navbar:hover .menu li:nth-child(9) {
+.Navbar .menu li:nth-child(9) {
   transition-delay: 0.18s;
   transform:rotate(405deg);
 }
-.Navbar:hover .menu li:nth-child(9) a {
+.Navbar .menu li:nth-child(9) a {
   transition-delay: 0.36s;
   transform:rotate(315deg);
 }
