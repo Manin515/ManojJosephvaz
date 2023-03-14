@@ -47,7 +47,7 @@ body
   transform-origin: 100px 100px;
   transition: all 0.5s 0.1s;
 }
-.Navbar :hover .menu li {
+.Navbar :not(.nohover):hover .menu li {
   transition: all 0.7s;
 }
 .Navbar:hover .menu li a {
